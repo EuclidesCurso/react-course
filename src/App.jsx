@@ -1,5 +1,7 @@
 import "./App.css"
 
+import Banner from "./components/Banner"
+
 import card from "./assets/images/svg/card-holder-svgrepo-com.svg"
 import coffee from "./assets/images/svg/coffee-svgrepo-com.svg"
 import laptop from "./assets/images/svg/laptop-svgrepo-com.svg"
