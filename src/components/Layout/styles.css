@@ -1,0 +1,80 @@
+.Layout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: fit-content;
+  background-color: #FFFFFF;
+}
+
+.Layout-content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 112px 64px;
+
+  width: auto;
+  height: auto;
+}
+
+.Layout-content >img {
+  width: 300px;
+  height: 300px;
+}
+
+.Layout-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.Layout-text {
+  display: flex;
+  flex-direction: column;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Layout-text h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+  
+.Layout-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.Layout-text p {
+  font-size: 18px;
+  font-weight: 400;
+
+  margin-top: 24px;
+}
+
+.Layout.button {
+  display: flex;
+
+  font-size: 16px;
+  font-weight: 400;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.Button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 48px;
+
+  border: 1px solid black;
+}
+
+.button-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+}
