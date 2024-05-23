@@ -1,8 +1,6 @@
-import '../styles.css'
-import EmptyImage from "../src/asset/images/Image.svg" 
-import LinkedIn from "../src/asset/images/LinkedIn.png"
-import Dribble from "../src/asset/images/Dribble.png" 
-import X from "../src/asset/images/X.png"  
+import '../../styles.css'
+
+import { Dribble, EmptyImage, LinkedIn, X } from '../../src/asset/images'
 
 export default function Content() {
   return (
