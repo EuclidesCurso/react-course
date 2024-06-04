@@ -1,0 +1,19 @@
+@value cor: #F00;
+
+.titulo {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: cor;
+}
+
+.descricao {
+    composes: titulo;
+    font-weight: bold;
+}
+
+:global  .titulo {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: firebrick;
+
+}
