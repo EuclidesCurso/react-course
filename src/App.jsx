@@ -5,6 +5,7 @@ import Logo from "./styles/styled-components/components/Logo"
 import Square from "./styles/styled-components/components/Square";
 import Header from "./styles/css-modules/components/Header";
 import DropdownMenu from "./Hooks/components/DropdownMenu";
+import Navbar from "./Hooks/components/Navbar";
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
     return (
     <body>
      
-      <DropdownMenu pages={pages} />
+      <Navbar />
     </body>
   );
  }
