@@ -10,31 +10,13 @@ import Navbar from "./Hooks/components/Navbar";
 
 function App() {
 
-        const pages = [
-          {
-          title: "Page one",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing."
-          },
-          {
-          title: "Page one",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing."
-          },
-          {
-          title: "Page one",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing."
-          },
-          {
-          title: "Page one",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing."
-          },
 
 
-
-        ]
+        
     return (
     <body>
-     
-      <Navbar />
+      <Navbar/>
+  
     </body>
   );
  }
